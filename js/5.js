@@ -26,7 +26,8 @@ const age = 12;
 const detail = `hello ${nm}, your age is ${age}`;
 console.log(detail);
 
-//Topic: Type Conversion Number, String, Boolean
+//Topic: Type Conversion - which is explicityly/manually convert from one type to another
+// ex: Number(), String, Boolean
 let num1 = "12";
 let num2 = 8;
 // const total = num1 + num2;
@@ -46,3 +47,23 @@ console.log("raj", Boolean("raj"));
 console.log("{}", Boolean({}));
 
 // -: 5 falsy values - 0, '', undefined, null, NaN
+
+// Topic: Type Coercion - javascript converts 'type' automatically behind the scene for us.
+
+// Type Coercion in case of Number or String
+console.log("i m " + 23 + "year old"); // will convert 23 into string
+console.log("10" - 5); // will convert into number, result is 5
+console.log("20" / "2"); // will convert into number, result is 10
+
+// Type Coercion in case of boolean, happens in 2 situations
+// 1. logical context, (if condition)
+// 2. logical operator (and, or, !)
+
+// ex:
+const money = 10;
+if (money) {
+  // money type changes to true or false
+  console.log("don't spend it all");
+} else {
+  console.log("go get a job");
+}
