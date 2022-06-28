@@ -15,6 +15,6 @@ function hello() {
 
 //----------------------------
 // Expression Function
-// -: function expressin can not be called before it decleares
+//-: function expressin can not be called before it decleares
 //-: using expression function is good practice, it forces us to decleare first and then use, which is good for nice structural programming
-// -: functions are also a value, that you can store in a variable, ex-expression function
+//-: functions are also a value, that you can store in a variable, ex-expression function
