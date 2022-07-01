@@ -15,6 +15,16 @@ const rajObject = {
   friends: ["suamn", "pradip"],
 };
 
+const sumanObject = {
+  firstName: "raj",
+  lastName: "singh",
+  age: 2022 - 1991,
+  job: "teacher",
+  friends: ["suamn", "pradip"],
+};
+
+// const obj = [rajObject, sumanObject];
+
 // -: dot (.) vs Bracket Notation(expression friendly)
 console.log(rajObject.lastName); //using dot notation
 console.log(rajObject["lastName"]); //using bracket notation

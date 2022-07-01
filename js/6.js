@@ -15,5 +15,5 @@ if (passTest) {
 }
 
 // ex:2
-let interface = "raj";
-let private = "raj";
+// let interface = "raj";
+// let private = "raj";

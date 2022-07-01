@@ -2,13 +2,13 @@
 
 // -: in javascript every value is either Object or Primitive Data
 
-//ex: primitive:
+//ex: primitive: stores values directly in it
 let name = "raj";
 let age = 22;
 let isActive = false;
 console.log(name, age);
 
-//ex: Objects {key:value,key:value}
+//ex: Objects {key:value,key:value} : stores memory location in it
 let me = {
   name: "suman",
   age: 32,

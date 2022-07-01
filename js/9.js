@@ -4,7 +4,7 @@ const friend2 = "suman";
 const friend3 = "pradip";
 
 // method 1: Array using litral []
-const friends = ["raj", "suman", "pradip"]; // friends = #9488585
+const friends = ["raj", "suman", "pradip"]; // friends = #9488585(heap address)
 console.log(friends);
 console.log(`I have ${friends.length} friends`);
 console.log(friends[2]); //pradip

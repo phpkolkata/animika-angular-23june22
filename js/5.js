@@ -17,7 +17,7 @@ const z = 10;
 
 console.log(x - z > y - z);
 
-// Topic: Template Litrals
+// Topic: Template Litrals - ``
 const nm = "raj";
 const age = 12;
 // console.log("Hello " + nm + ", your age is " + age);

@@ -1,6 +1,6 @@
-// point:let and var and const
+// point: var and let and const
 
-// var - scopes to its nearest function
+// var - scopes to its nearest function - bad practice
 // let - scopes to its block
 
 // var scope
