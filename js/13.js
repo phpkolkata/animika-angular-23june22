@@ -42,11 +42,9 @@ for (let i = 0; i < 5; i++) {
 
 // ex:2
 
-for(let i=0;i<rajArray.length;i++){
+for (let i = 0; i < rajArray.length; i++) {}
 
-}
-
-hw: - 
+// hw: -
 // 1. loop rajArray and print only string data, using continue
 // 2. loop rajArray and stop loop if it finds any number data, using break
 // 3. loop rajArray backwards
