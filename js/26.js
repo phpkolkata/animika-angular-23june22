@@ -22,7 +22,7 @@ const res = {
       close: "3 am",
     },
     wed: {
-      close: "11pm",
+      close: "10am",
     },
   },
   hello(nm) {
@@ -36,3 +36,19 @@ res.hello?.("raj"); // if hello method avaialbe then calling
 res.hi?.("raj");
 
 const weeks = ["sun", "mon", "tue", "wed", "thur", "fri", "sat"];
+
+for (const day of weeks) {
+  const isOpen = res.hours[day]?.open || "closed";
+  //   const isOpen = res.hours[day]?.open ? "open" : "closed";
+  console.log(`on ${day} - ${isOpen}`);
+}
+
+// ex: 2 Optional chaining in Array
+
+const users = [
+  { name: "raj", age: 22 },
+  { name: "jack", age: 2 },
+];
+
+console.log(users[1].name);
+console.log(users[2]?.name);
